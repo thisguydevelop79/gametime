@@ -17,7 +17,7 @@ function startGame() {
     if (timeLeft <= 0) endGame();
   }, 1000);
 
-  moveInterval = setInterval(moveDot, 700);
+  moveInterval = setInterval(moveDot, 1000);
   moveDot();
 }
 
