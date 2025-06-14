@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click the Dot!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Click the Dot!</h1>
+    <p>Score: <span id="score">0</span></p>
+    <p>Time Left: <span id="time">30</span>s</p>
+    <div id="dot" onclick="handleClick()"></div>
+    <div id="game-over" class="hidden">
+      <h2>Game Over!</h2>
+      <p>Your final score: <span id="final-score">0</span></p>
+      <button onclick="startGame()">Play Again</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
 
